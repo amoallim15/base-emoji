@@ -5,7 +5,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-	¯\_(ツ)_/¯
+`¯\_(ツ)_/¯`
 
 BaseEmoji is a binary-to-emoji encoding scheme that represent binary data in a subset of the Unicode Emoji symbols, designed for triggering senior programmers.
 BaseEmoji is heavily influenced by my furstration towards my tech lead that always shares data (base64 encoded) with me.
@@ -13,7 +13,7 @@ BaseEmoji is heavily influenced by my furstration towards my tech lead that alwa
 ## But why?
 - REVENGE!
 - WHY NOT!
-- Now you can differentiate between your encoded SSH private. 
+- Now you can differentiate between your encoded SSH private keys. 
 
 ## What's here?
 - The BaseEmoji encoder specification
@@ -28,15 +28,12 @@ BaseEmoji is heavily influenced by my furstration towards my tech lead that alwa
 ## Installation
 You can install the package by issuing the following command:
 
-`
-pip install base-emoji
-`
+	pip install base-emoji
+
 
 You can also clone this project using git:
 
-`
-git clone https://github.com/amoallim15/base-emoji
-`
+	git clone https://github.com/amoallim15/base-emoji
 
 ## Usage example
 Basic usage looks like:
@@ -47,9 +44,7 @@ TODO:
 ## Development setup
 TODO:
 
-`
-make install
-`
+	make install
 
 ## Running Tests
 TODO:
