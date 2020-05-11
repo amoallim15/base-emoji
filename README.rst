@@ -7,7 +7,7 @@ BaseEmoji
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-![](media/logo.png)
+.. image:: media/logo.png
 
 BaseEmoji is a binary-to-emoji encoding scheme that represent binary data in a subset of the Unicode Emoji symbols, designed for triggering senior programmers.
 BaseEmoji is heavily influenced by my furstration towards my tech lead that always shares data (base64 encoded) with me.
@@ -62,6 +62,8 @@ Development setup
 
 TODO:
 
+::
+
 	make install
 
 Release History
@@ -84,6 +86,6 @@ I'm also available for questions, feel free to get in touch.
 License
 -------
 
-The package is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The package is available as open source under the terms of the `MIT License`_.
 
-
+.. _MIT License: http://www.python.org/
