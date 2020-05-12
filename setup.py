@@ -5,7 +5,7 @@ with open("README.rst") as file:
 
 setup(
     name="base-emoji",
-    version="0.0.1",
+    version="0.0.2",
     author="Ali Moallim",
     author_email="amoallim15@gmail.com",
     url="https://github.com/amoallim15/base-emoji",
