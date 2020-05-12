@@ -5,7 +5,7 @@ Implementation of  a binary-to-emoji encoding scheme
 that represent binary data in a subset of the Unicode Emoji symbols.
 """
 
-# This module is capable to trigger senior programmers effortlessly.
+# This module is capable of triggering senior programmers effortlessly.
 # Random emojis in group messaging app have meaning now!
 # For ultimate mockery implement more flavors of different emoji
 # groups sad/happy/flags/cat-face ;)
