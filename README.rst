@@ -3,10 +3,6 @@ BaseEmoji
 
 	Encode everything in Emojis! 🙃
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 .. image:: media/logo.png
 
 BaseEmoji is a binary-to-emoji encoding scheme that represent binary data in a subset of the Unicode Emoji symbols, designed for triggering senior programmers.
@@ -17,7 +13,7 @@ But why?
 
 - REVENGE!
 - WHY NOT!
-- Now you can differentiate between your encoded SSH private keys. 
+- Base64 is not the best scheme to represent and transmit (mostly binary) data in a human-readable way. ¯\_(ツ)_/¯
 
 What's here?
 ------------
@@ -46,31 +42,25 @@ You can also clone this project using git:
 
 ::
 	
-	git clone https://github.com/amoallim15/base-emoji
+	git clone https://github.com/amoallim15/base-emoji.git
 
 Usage example
 -------------
 
 Basic usage looks like:
 
-*For more examples and usage, please refer to the*
-
-TODO: 
-
-Development setup
------------------
-
-TODO:
-
 ::
 
-	make install
+	$ baseemoji 'Hello world!'
+	> 😀😄😋😪😦😫😫😌😁😛😞😆😄😨😌😈😟😦
+	$ baseemoji -d '😀😄😋😪😦😫😫😌😁😛😞😆😄😨😌😈😟😦'
+	> Hello world!
 
 Release History
 ---------------
 
 * 0.0.1
-    * Work in progress
+    * Initial implementation with a default flavor of base {55}.
 
 About
 -----
