@@ -13,14 +13,14 @@ But why?
 
 - MOCKERY!
 - WHY NOT!
-- Base64 is not the best scheme to represent and transmit (mostly binary) data in a human-readable way. ¯\_(ツ)_/¯
+- Base64 is not the best scheme to represent and transmit (mostly binary) data in a human-readable way. ¯\\_(ツ)_/¯
 
 Features
 --------
 
 - Basic encode/decode operations.
-- Different encoding schemes based on Uincode Emoji groups.
-- [Contribute].
+- [TODO] Different flavors based on subset of the Unicode Emoji symbols.
+- [Contribute] ツ.
 
 Installation
 ------------
