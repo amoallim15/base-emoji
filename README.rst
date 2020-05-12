@@ -5,8 +5,7 @@ BaseEmoji
 
 .. image:: media/logo.png
 
-BaseEmoji is a binary-to-emoji encoding scheme that represent binary data in a subset of the Unicode Emoji symbols, designed for triggering senior programmers effortlessly.
-BaseEmoji is heavily influenced by my furstration towards my tech lead that always shares data (base64 encoded) with me.
+BaseEmoji is a binary-to-emoji encoding scheme that represents binary data in a subset of the Unicode Emoji symbols, designed for triggering senior programmers effortlessly. BaseEmoji is heavily influenced by my frustration towards my tech lead that always shares data (base64 encoded) with me.
 
 But why?
 --------
