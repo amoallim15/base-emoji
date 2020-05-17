@@ -3,15 +3,16 @@ Base Emoji Encoding
 
 Implementation of  a binary-to-emoji encoding scheme
 that represent binary data in a subset of the Unicode Emoji symbols.
+
+This module is capable of triggering senior programmers effortlessly.
+Random emojis in group messaging app have meaning now!
+For ultimate mockery implement more flavors of different emoji
+groups sad/happy/flags/cat-face ;)
+Bordom is good.
+
 """
-
-# This module is capable of triggering senior programmers effortlessly.
-# Random emojis in group messaging app have meaning now!
-# For ultimate mockery implement more flavors of different emoji
-# groups sad/happy/flags/cat-face ;)
-# Bordom is good.
-
 from abc import ABCMeta, abstractmethod
+from ._version import __version_info__, __version__
 
 
 class OutOfOrderException(Exception):
