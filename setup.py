@@ -1,11 +1,9 @@
 from setuptools import setup
 
 _locals = {}
-with open('baseemoji/_version.py') as file:
-    exec(file.read(), None, _locals)
-
-with open("README.rst") as file:
-    long_description = file.read()
+exec(open("baseemoji/_version.py").read(), None, _locals)
+version = _locals["__version__"]
+long_description = open("README.rst").read()
 
 setup(
     name="base-emoji",

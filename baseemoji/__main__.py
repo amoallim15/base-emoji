@@ -1,7 +1,6 @@
 import argparse
 import sys
-
-from baseemoji import encode, decode
+from . import __version__, encode, decode
 
 
 def main():
@@ -19,13 +18,13 @@ def main():
         "--input-file", "-i",
         type=argparse.FileType("r"),
         default=sys.stdin,
-        help="Input file name to be encoded."
+        help="Input file name to be encoded/decoded."
     )
     parser.add_argument(
         "text",
         nargs="?",
         type=str,
-        help="Input string to be encoded."
+        help="Input string to be encoded/decoded."
     )
     parser.add_argument(
         "--output-file", "-o",
