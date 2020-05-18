@@ -51,6 +51,9 @@ Basic usage looks like:
 Release History
 ---------------
 
+* 0.0.3
+	* read/write from/to stdin/stdout.
+
 * 0.0.2
     * Initial implementation with a default flavor of base {55}.
 
